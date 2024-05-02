@@ -1,0 +1,23 @@
+.phone-icon {
+    position: relative;
+    top: 20px; 
+    left: 20px; 
+}
+.phone-icon img{
+    width: 35px;
+    height: 35px;
+}
+.phone-icon p{
+    position: relative;
+    top: -40px; 
+    left: 45px; 
+    font-family: 'Montserrat',Arial,sans-serif;
+}
+.sms{
+    position: relative;
+    top: 20px; 
+    right: 80px; 
+    font-family: 'Montserrat',Arial,sans-serif;
+    color:#FF99E2;
+    
+}
