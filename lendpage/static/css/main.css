@@ -1,0 +1,281 @@
+ /* Navigation styles */
+
+ .header-container{
+    display:flex;
+}
+ .leftside{
+    width:60%;
+}
+
+
+.phone-icon {
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+.phone-icon p {
+    position: relative;
+    top: -25px;
+    left: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Montserrat',Arial,sans-serif;
+}
+
+.phone-icon img {
+    position: relative;
+    top: 10px;
+    left: 0px;
+    width:30px;
+    height: 30px;
+}
+
+.sms {
+    position: absolute;
+    margin-top:50px;
+    margin-left:235px;
+    width:100%;
+    font-weight: 400;
+    font-size:15px;
+    font-family: 'Montserrat',Arial,sans-serif;
+    color: #FF99E2;
+}
+
+.kartinka2{
+    position: relative;
+    top: -500px;
+    left: 650px; 
+    width:234px;
+    height: 441px;
+    -webkit-font-smoothing: antialiased;
+    visibility: visible;
+    -webkit-text-size-adjust: 100%;
+    box-sizing: content-box;
+    filter: invert(0);
+}
+.kartinka1{
+    position: relative;
+    top: 100px;
+    left: 900px; 
+    width:214px;
+    height: 441px;
+    -webkit-font-smoothing: antialiased;
+    visibility: visible;
+    -webkit-text-size-adjust: 100%;
+    box-sizing: content-box;
+    filter: invert(0);
+}
+.kartinka3{
+    position: relative;
+    left: 650px; 
+    width:214px;
+    height: 441px;
+    -webkit-font-smoothing: antialiased;
+    visibility: visible;
+    -webkit-text-size-adjust: 100%;
+    box-sizing: content-box;
+    filter: invert(0);
+}
+
+.kartinka3 {
+    z-index: 1;
+    left:650px;
+    top:-450px; /* Устанавливаем порядок наложения */
+}
+
+.kartinka4 {
+    position: relative;
+    z-index: 2;
+    top:-1700px;
+    left:900px;
+    width:224px;
+    height: 441px; /* Устанавливаем порядок наложения */
+}
+.knopka{
+    width:319px;
+    height:100px;
+    position: relative;
+    left:20px;
+    top:-20px;
+}
+.express-time{
+    -webkit-font-smoothing: antialiased;
+    visibility: visible;
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    -webkit-text-size-adjust: 100%;
+    color: #FF99E2;
+    font-size: 20px;
+    left:25px;
+    top:-70px;
+    position: relative;
+    font-family: 'TildaSans',Arial,sans-serif;
+    font-weight: 500;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    line-height: 31px !important;
+}
+.ind-part p{
+    -webkit-font-smoothing: antialiased;
+    visibility: visible;
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    right:-20px;
+    width:600px;
+    top:-50px;
+    -webkit-text-size-adjust: 100%;
+    color: #676767;
+    font-size: 48px;
+    font-family: 'TildaSans',Arial,sans-serif;
+    font-weight: 500;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    line-height: 62px;
+}
+.rabot{
+    position: relative;
+    top:-30px;
+    left:0px;
+    -webkit-font-smoothing: antialiased;
+    visibility: visible;
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    -webkit-text-size-adjust: 100%;
+    color: #575757;
+    font-size: 20px;
+    font-family: 'TildaSans',Arial,sans-serif;
+    font-weight: 500;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    line-height: 31px;
+}
+.container {
+    width: 100% !important;
+}
+@media (max-width: 768px) {
+    .phone-icon, .sms, .kartinka1, .kartinka2, .kartinka3, .kartinka4, .knopka, .leftbarmenu, .express-time, .ind-part p, .rabot {
+        position: static;
+        width: 100%;
+        top: 0;
+        left: 0;
+        text-align: center;
+    }
+    .phone-icon img, .sms {
+        display: block;
+        margin: 0 auto;
+    }
+    .kartinka1, .kartinka2, .kartinka3, .kartinka4 {
+        height: auto;
+    }
+    .knopka {
+        width: 80%;
+    }
+}
+
+.discount-block{
+    border-radius: 15px;
+    background-color: #f3f3f3;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    width:287px;
+    height:109px;
+    position: relative;
+    left:350px;
+    top:-122px;
+}
+.discount-block p{
+    color: #353535;
+    font-size: 16px;
+    font-family: 'TildaSans',Arial,sans-serif;
+    font-weight: 400;
+    position: relative; /* Изменено с absolute на relative */
+    top: 50%; /* Центрирование по вертикали */
+    transform: translateY(-50%); /* Смещение на половину высоты вверх */
+    text-align: left; /* Горизонтальное выравнивание текста */
+    width: 80%; /* Ширина текста равна ширине контейнера */
+    padding: 0 10px; /* Добавление небольшого отступа с обеих сторон */
+    left:50px;
+    
+}
+.discount-arrow{
+    -webkit-font-smoothing: antialiased;
+    visibility: visible;
+    -webkit-text-size-adjust: 100%;
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top:-25px;
+    left:15px;
+    border: 0;
+    width:10%; /* Уменьшенный размер */
+    display: block;
+    filter: invert(0);
+    animation: swing 2s infinite; /* Анимация качания */
+}
+
+@keyframes swing {
+    0%, 100% { transform: translateX(-10px); }
+    50% { transform: translateX(10px); }
+}
+.choosed-us img {
+    position: absolute;
+    margin-top:0px;
+    margin-left:0px;
+    box-sizing: border-box;
+    display: table;
+    visibility: visible;
+    transition-property: opacity, transform;
+    transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+    backface-visibility: hidden;
+    opacity: 1;
+    transform: none !important;
+    z-index: 14;
+    width: 33px;
+    transition-duration: 1s;
+}
+
+.c-text{
+    color: #929292;
+    font-size: 15px;
+    font-family: 'TildaSans',Arial,sans-serif;
+    font-weight: 700;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    line-height: 23px;
+}
+.c-text p{
+    width:80%;  
+
+}
+.header-container{
+    width:100%;
+    height:1500px;
+}
+.leftbarmenu{
+    margin-top:120px;
+}
+.rightside{
+    margin-top: 100px;
+}

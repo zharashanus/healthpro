@@ -5,4 +5,8 @@ from django.shortcuts import render
 def main_page(request):
     # Передаем информацию о пользователе в контекст шаблона
     context = {'user': request.user}
+    return render(request, 'index.html', context)
+def my_page(request):
+    # Передаем информацию о пользователе в контекст шаблона
+    context = {'user': request.user}
     return render(request, 'main_page.html', context)

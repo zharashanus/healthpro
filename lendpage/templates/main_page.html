@@ -1,97 +1,100 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
-    <link rel="stylesheet" href="{% static 'css/main_page.css' %}">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" href="{% static 'css/sec.css' %}">
     <title>healthpro</title>
     <!-- Bootstrap CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-<!-- jQuery, Popper.js, and Bootstrap JS -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- jQuery, Popper.js, and Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
+
 <body>
 
 
 
-<header>
-    <div class="container" >
-        
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" >
-                <img src="{% static 'img/logo.png' %}" alt="HealthPro Logo" >
-            </a>
-            <a class="navbar-brand phone-icon" href="https://api.whatsapp.com/send/?phone=87753235530&text&type=phone_number&app_absent=0">
-                <img src="{% static 'img/phone.svg' %}" alt="HealthPro Phone" >
-                <p>+77071023562</p>
-                <a  href="https://api.whatsapp.com/send/?phone=87753235530&text&type=phone_number&app_absent=0" class="sms">Позвонить консультанту</a>
-            </a>
+    <header>
+        <div class="container">
+            <div class="header-container">
+                <div class="leftside">
+                    <nav class="navbar navbar-expand-lg navbar-light ">
+                        <a class="navbar-brand">
+                            <img src="{% static 'img/logo.png' %}" alt="HealthPro Logo">
+                        </a>
+                        <a class="navbar-brand phone-icon"
+                            href="https://api.whatsapp.com/send/?phone=87753235530&text&type=phone_number&app_absent=0">
+                            <img src="{% static 'img/phone.svg' %}" alt="HealthPro Phone">
+                            <p>+77071023562</p>
+                            <a href="https://api.whatsapp.com/send/?phone=87753235530&text&type=phone_number&app_absent=0"
+                                class="sms">Позвонить консультанту</a>
+                        </a>
 
-            </nav>       
-             <div class="t396">
-                 <div class="t396__artboard rendered" data-artboard-recid="713934223" data-artboard-screens="320,480,640,960,1200" data-artboard-height="650" data-artboard-valign="center" data-artboard-upscale="grid" data-artboard-height-res-320="1100" data-artboard-proxy-min-offset-top="0" data-artboard-proxy-min-height="650" data-artboard-proxy-max-height="650">
-                     <div class="t396__carrier" data-artboard-recid="713934223"></div>
-                     <div class="t396__filter" data-artboard-recid="713934223"></div>
-                     <div class="t396__elem tn-elem tn-elem__7139342231709297470456 t-animate t-animate_started" data-elem-id="1709297470456" data-elem-type="text" data-field-top-value="152" data-field-left-value="26" data-field-width-value="547" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="zoomin" data-animate-duration="1" data-animate-scale="0.6" data-animate-mobile="y" data-field-top-res-320-value="135" data-field-left-res-320-value="-1" data-field-width-res-320-value="321" data-fields="top,left,width,container,axisx,axisy,widthunits,leftunits,topunits" style="top: 152px; left: 377.5px; width: 547px; transform: scale(0.6); transition-duration: 1s;">
-                     </div>
-                     <div class="t396__elem tn-elem tn-elem__7139342231709297577894 t-animate t-animate_started" data-elem-id="1709297577894" data-elem-type="shape" data-field-top-value="304" data-field-left-value="29" data-field-height-value="2" data-field-width-value="20" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-animate-style="fadeinup" data-animate-duration="1" data-animate-distance="100" data-animate-mobile="y" data-field-top-res-320-value="231" data-field-left-res-320-value="0" data-field-width-res-320-value="15" data-fields="width,height,top,left,container,axisx,axisy,widthunits,heightunits,leftunits,topunits" style="width: 20px; left: 380.5px; top: 304px; height: 2px; transform: translate3d(0px, 100px, 0px); transition-duration: 1s;">
-                         <div class="tn-atom"></div>
-                     </div>
-                     <div class="t396__elem tn-elem tn-elem__7139342231709297646193 t-animate t-animate_started" data-elem-id="1709297646193" data-elem-type="text" data-field-top-value="287" data-field-left-value="67" data-field-width-value="521" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadeinup" data-animate-duration="1" data-animate-distance="100" data-animate-mobile="y" data-field-top-res-320-value="220" data-field-left-res-320-value="22" data-field-width-res-320-value="284" data-fields="top,left,width,container,axisx,axisy,widthunits,leftunits,topunits" style="top: 287px; left: 418.5px; width: 521px; transform: translate3d(0px, 100px, 0px); transition-duration: 1s;">
-                         <div class="tn-atom" field="tn_text_1709297646193" style="line-height: 31px;">
-                             <ul>
-                                 <li>Мгновенная реакция</li>
-                                 <li>Высший уровень профессионализма</li>
-                                 <li>Непревзойденный комфорт</li>
-                             </ul>
-                         </div>
-                     </div>
-                     <div class="t396__elem tn-elem tn-elem__7139342231709297687194 t-animate t-animate_started" data-elem-id="1709297687194" data-elem-type="image" data-field-top-value="412" data-field-left-value="26" data-field-width-value="319" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadeinright" data-animate-duration="1" data-animate-distance="100" data-animate-mobile="y" data-field-filewidth-value="766" data-field-fileheight-value="240" data-field-lazyoff-value="y" data-field-top-res-320-value="313" data-field-left-res-320-value="0" data-field-width-res-320-value="320" data-fields="img,width,filewidth,fileheight,top,left,container,axisx,axisy,widthunits,leftunits,topunits" style="left: 377.5px; top: 412px; width: 319px; transform: translate3d(-100px, 0px, 0px); transition-duration: 1s;">
-                         <a class="tn-atom js-click-zero-stat" href="tel:+77078540700" data-tilda-event-name="/tilda/click/rec713934223/button1709297687194">
-                             <img class="tn-atom__img" src="https://static.tildacdn.pro/tild6665-3765-4664-b763-336262373532/Group_8721.png" alt="" imgfield="tn_img_1709297687194" style="filter: invert(0);">
-                         </a>
-                     </div>
-                     <div class="t396__elem tn-elem tn-elem__7139342231709297734420 t-animate t-animate_started" data-elem-id="1709297734420" data-elem-type="shape" data-field-top-value="412" data-field-left-value="360" data-field-height-value="109" data-field-width-value="287" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-animate-style="fadeinup" data-animate-duration="1" data-animate-distance="100" data-animate-mobile="y" data-field-top-res-320-value="437" data-field-left-res-320-value="17" data-field-height-res-320-value="82" data-fields="width,height,top,left,container,axisx,axisy,widthunits,heightunits,leftunits,topunits" style="width: 287px; left: 711.5px; top: 412px; height: 109px; transform: translate3d(0px, 100px, 0px); transition-duration: 1s;">
-                        <div class="tn-atom__sbs-anim-wrapper" style="display: table; width: inherit; height: inherit; opacity: 1; transform: scale(1); will-change: transform;" id="sbs-713934223-1709297787188">
-                            <div class="tn-atom">
-                               <img class="kartinka1" src="{% static 'img/Mask_group-3.png' %}">
+                    </nav>
+                    <div class="leftbarmenu">
+                        <div class="ind-block">
+                            <div class="express-time" field="tn_text_1709298267482"
+                                style="line-height: 31px !important;">
+                                Мы будем у Вас в течении 20 минут
+                            </div>
+                            <div class="ind-part" field="tn_text_1709297470456" style="line-height: 62px; ">
+                                <p><strong style="color: rgb(54, 54, 54);">Индивидуальный</strong> подход к вашему
+                                    здоровью
+                                </p>
+                            </div>
+                            <div class="rabot" style="line-height: 31px;">
+                                <ul>
+                                    <li>Работаем для Вас 24/7</li>
+                                    <li>Стаж работы наших специалистов свыше 10 лет</li>
+                                    <li>Врачи на пути к Вам, можете забыть об очередях в поликлинике.</li>
+                                </ul>
                             </div>
                         </div>
-                     </div>
-                     <div class="t396__elem tn-elem tn-elem__7139342231709297787188" data-elem-id="1709297787188" data-elem-type="image" data-field-top-value="43" data-field-left-value="702" data-field-width-value="224" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-mobile="y" data-animate-sbs-event="scroll" data-animate-sbs-trg="1" data-animate-sbs-trgofst="0" data-animate-sbs-opts="[{'mx':0,'my':0,'sx':1,'sy':1,'op':1,'ro':0,'di':'0','dd':'0','fi':'0'},{'mx':0,'my':-30,'sx':1,'sy':1,'op':1,'ro':0,'di':560,'dd':'0','fi':'0'}]" data-field-filewidth-value="450" data-field-fileheight-value="846" data-field-top-res-320-value="657" data-field-left-res-320-value="-9" data-field-width-res-320-value="158" data-animate-sbs-opts-res-320="[{'mx':0,'my':0,'sx':1,'sy':1,'op':1,'ro':0,'di':'0','dd':'0','fi':'0'},{'mx':0,'my':-30,'sx':1,'sy':1,'op':1,'ro':0,'di':720,'dd':'0','fi':'0'}]" data-fields="img,width,filewidth,fileheight,top,left,container,axisx,axisy,widthunits,leftunits,topunits" style="left: 1053.5px; top: 43px; width: 224px;">
-                         <div class="tn-atom__sbs-anim-wrapper" style="display: table; width: inherit; height: inherit; opacity: 1; transform: scale(1); will-change: transform;" id="sbs-713934223-1709297787188">
-                             <div class="tn-atom">
-                                <img class="kartinka2" src="{% static 'img/Mask_group.png' %}">
-                             </div>
-                         </div>
-                     </div>
-                     <div class="t396__elem tn-elem tn-elem__7139342231709297922863" data-elem-id="1709297922863" data-elem-type="image" data-field-top-value="473" data-field-left-value="702" data-field-width-value="224" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-mobile="y" data-animate-sbs-event="scroll" data-animate-sbs-trg="1" data-animate-sbs-trgofst="0" data-animate-sbs-opts="[{'mx':0,'my':0,'sx':1,'sy':1,'op':1,'ro':0,'di':'0','dd':'0','fi':'0'},{'mx':0,'my':-30,'sx':1,'sy':1,'op':1,'ro':0,'di':560,'dd':'0','fi':'0'}]" data-field-filewidth-value="450" data-field-fileheight-value="846" data-field-top-res-320-value="959" data-field-left-res-320-value="-9" data-field-width-res-320-value="158" data-animate-sbs-opts-res-320="[{'mx':0,'my':0,'sx':1,'sy':1,'op':1,'ro':0,'di':'0','dd':'0','fi':'0'},{'mx':0,'my':-30,'sx':1,'sy':1,'op':1,'ro':0,'di':720,'dd':'0','fi':'0'}]" data-fields="img,width,filewidth,fileheight,top,left,container,axisx,axisy,widthunits,leftunits,topunits" style="left: 1053.5px; top: 473px; width: 224px;">
-                         <div class="tn-atom__sbs-anim-wrapper" style="display: table; width: inherit; height: inherit; opacity: 1; transform: scale(1); will-change: transform;" id="sbs-713934223-1709297922863">
-                             <div class="tn-atom">
-                                <img class="kartinka3" src="{% static 'img/Mask_group-1.png' %}">
-                             </div>
-                         </div>
-                     </div>
-                     <div class="t396__elem tn-elem tn-elem__7139342231709297993676" data-elem-id="1709297993676" data-elem-type="image" data-field-top-value="-247" data-field-left-value="952" data-field-width-value="224" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-mobile="y" data-animate-sbs-event="scroll" data-animate-sbs-trg="1" data-animate-sbs-trgofst="0" data-animate-sbs-opts="[{'mx':0,'my':0,'sx':1,'sy':1,'op':1,'ro':0,'di':'0','dd':'0','fi':'0'},{'mx':0,'my':30,'sx':1,'sy':1,'op':1,'ro':0,'di':560,'dd':'0','fi':'0'}]" data-field-filewidth-value="448" data-field-fileheight-value="842" data-field-top-res-320-value="551" data-field-left-res-320-value="168" data-field-width-res-320-value="159" data-animate-sbs-opts-res-320="[{'mx':0,'my':0,'sx':1,'sy':1,'op':1,'ro':0,'di':'0','dd':'0','fi':'0'},{'mx':0,'my':30,'sx':1,'sy':1,'op':1,'ro':0,'di':720,'dd':'0','fi':'0'}]" data-fields="img,width,filewidth,fileheight,top,left,container,axisx,axisy,widthunits,leftunits,topunits" style="left: 1303.5px; top: -247px; width: 224px;">
-                         <div class="tn-atom__sbs-anim-wrapper" style="display: table; width: inherit; height: inherit; opacity: 1; transform: scale(1); will-change: transform;" id="sbs-713934223-1709297993676">
-                             <div class="tn-atom">
-                                 <img class="kartinka4" src="{% static 'img/Mask_group-2.png' %}">
-                             </div>
-                         </div>
-                       
-                     </div>
-                 </div>
-             </div>
-</header>
+                        <a class="tn-atom js-click-zero-stat" href="tel:+77078540700"
+                            data-tilda-event-name="/tilda/click/rec713934223/button1709297687194">
+                            <img class="knopka " src="{% static 'img/whatsappbutton.png' %}" alt=""
+                                imgfield="tn_img_1709297687194" style="filter: invert(0);">
+                        </a>
+                        <div class="discount-block">
+                            <p>Нажми на кнопку и получи 15% скидку</p>
+                            <img class="discount-arrow img-fluid" style="filter: invert(0);"
+                                src="{% static 'img/arrow.svg' %}">
+                        </div>
+                        <div class="choosed-us">
+                            <img class="c1 " style="filter: invert(0);" src="{% static 'img/c1.png' %}">
+                            <img class="c2 " style="filter: invert(0);" src="{% static 'img/c2.png' %}">
+                            <img class="c3 " style="filter: invert(0);" src="{% static 'img/c3.png' %}">
+                            <img class="c4 " style="filter: invert(0);" src="{% static 'img/c4.png' %}">
+                        </div>
+                        <div class="c-text" style="line-height: 23px;">
+                            <p>+100.000 пациентов выбрали нас</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="rightside">
+
+                    <img class="kartinka1 " src="{% static 'img/Mask_group-3.png' %}">
+                    <img class="kartinka2 " src="{% static 'img/Mask_group.png' %}">
+                    <img class="kartinka3 " src="{% static 'img/Mask_group-1.png' %}">
+                    <img class="kartinka4" src="{% static 'img/Mask_group-2.png' %}">
+
+                </div>
+
+            </div>
+        </div>
+    </header>
 
 
 
-<!-- 
+    <!-- 
     <h1>Добро пожаловать!</h1>
     <div>
         {% if user.is_authenticated %}
@@ -110,6 +113,9 @@
         {% endif %}
     </div> -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
