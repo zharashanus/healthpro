@@ -184,9 +184,6 @@ textarea:not([rows]) {
 }
 
 
-.artboard-leftside__actions {
-
-}
 
 .artboard-leftside__actions-button {
     background-color: var(--violet);
@@ -363,7 +360,7 @@ textarea:not([rows]) {
 }
 .doctorslist__container{
     max-width: 1280px;
-    margin-left:460px;
+    margin-left:340px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -396,7 +393,7 @@ textarea:not([rows]) {
 .doctorslist__blocks {
     
     margin-top: 200px;
-    margin-left: -480px;
+    margin-left: -450px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between; /* Обеспечивает равномерное расстояние между блоками */
@@ -482,9 +479,10 @@ textarea:not([rows]) {
     margin-left: 30px;
 }
 .doctorslist__blocks div:last-child {
-    margin-left: 30px;
+    margin-left: 20px;
     flex: 1 1 0; /* Устанавливает flex-grow на 2, flex-shrink на 0 и flex-basis на 0 */
 }
+
 
 
 
