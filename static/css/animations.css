@@ -1,0 +1,151 @@
+.artboard-leftside__header-logo{
+    animation-name: move-from-left;
+    animation-duration: 900ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes move-from-left {
+    0%{
+        transform: translateX(-100%) scale(0.5);
+    }    
+    100%{
+        transform: translateX(0.) scale(1);
+    }  
+    
+}
+.artboard-leftside__content_header {
+  color: var(--violet);
+  animation-name: move-circle;
+  animation-duration: 900ms;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+.artboard-leftside__actions_discount{
+    animation-name: move-circle;
+    animation-duration: 900ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes move-circle {
+    0%{
+        transform: translateY(200%) scale(0.5);
+    }    
+    100%{
+        transform: translateY(0%) scale(1);
+    }    
+}
+
+@keyframes reasons__containers-blocks__item {
+    from {top: 0px;}
+    to {top: 200px;}
+  }
+
+.artboard-leftside__header-phone{
+    animation-name: move-from-right;
+    animation-duration: 900ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+@keyframes move-from-right {
+    0%{
+        transform: translateX(200%);
+    }    
+    100%{
+        transform: translateX(0%);
+    }  
+    
+    
+}
+
+.artboard-leftside__content_subheader {
+    animation-name: appear-and-grow;
+    animation-duration: 500ms;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes appear-and-grow {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    100% {
+        transform:  scale(1);
+        opacity: 1;
+    }
+}
+
+.artboard-leftside__content-service-features{
+    animation-name: move-from-left;
+    animation-duration: 900ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+
+}
+.artboard-leftside__actions-button{
+    animation-name: move-from-left;
+    animation-duration: 900ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+
+.artboard-leftside__actions--choosed-us{
+    margin-top: 20px;
+}
+
+.reasons__containers-blocks__item img{
+    animation-name: none;
+    animation-duration: 900ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+.reasons__containers-blocks__item img.is-visible{
+    animation-name: move-from-left;
+}
+
+.reasons__container-blocks__actions button{
+    animation-name: none;
+    animation-duration: 500ms;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+.reasons__container-blocks__actions button.is-visible{
+    animation-name: appear-and-grow;
+}
+
+.reasons__containers-blocks__item-text{
+    animation-name: none;
+    animation-duration: 600ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+.reasons__containers-blocks__item-text.is-visible {
+    animation-name: move-from-left; /* Применяем анимацию только когда элемент видим */
+}
+
+
+.employees__container_blocks-item{
+    animation-name: none;
+    animation-duration: 600ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+.employees__container_blocks-item.is-visible{
+    animation-name: move-from-leftside;
+}
+@keyframes move-from-leftside {
+    0% {
+        transform: translateX(-100%) scale(0.5);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0%) scale(1); /* Исправлено с -100% на 0% */
+        opacity: 1;
+    }
+}
