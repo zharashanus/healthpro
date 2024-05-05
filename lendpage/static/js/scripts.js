@@ -14,3 +14,29 @@ document.addEventListener("DOMContentLoaded", function() {
         observer.observe(el);
     });
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const items = document.querySelectorAll('.carousel-item');
+    let currentItem = 0;
+  
+    // Обработчик для стрелки "назад"
+    document.querySelector('.carousel-control-prev-clone').addEventListener('click', function() {
+      items[currentItem].classList.remove('active');
+      currentItem = (currentItem - 1 + items.length) % items.length;
+      items[currentItem].classList.add('active');
+      updateCarousel();
+    });
+  
+    // Обработчик для стрелки "вперед"
+    document.querySelector('.carousel-control-next-clone').addEventListener('click', function() {
+      items[currentItem].classList.remove('active');
+      currentItem = (currentItem + 1) % items.length;
+      items[currentItem].classList.add('active');
+      updateCarousel();
+    });
+  
+    function updateCarousel() {
+      const newTransform = `translateX(-${currentItem * 100}%)`;
+      document.querySelector('.carousel-inner').style.transform = newTransform;
+    }
+  });

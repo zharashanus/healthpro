@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="{% static 'css/v2.css' %}">
   <link rel="stylesheet" href="{% static 'css/v3.css' %}">
   <link rel="stylesheet" href="{% static 'css/v4.css' %}">
+  <link rel="stylesheet" href="{% static 'css/v5.css' %}">  
   <link rel="stylesheet" href="{% static 'css/animations.css' %}">
   <link
     href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
@@ -657,34 +658,58 @@
         <div class="feedback__container">
 
           <div class="feedback__container_maintext">
-            <span>Отзывы</span>наших клиентов
+            <span>Отзывы </span>наших клиентов
           </div>
 
-          <div class="feedback__container_carousel">
+          <div class="feedback__container_circle">
 
-            <div class="feedback__container_carousel-circle">
+          </div>
 
-              <div class="feedback__container_carousel-circle-phone">
+          <div class="feedback__container__carousel">
+            <div class="phone-frame">
+              <div class="carousel">
 
-                <div class="feedback__container_carousel-circle-phone-form">
-
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="{% static 'img/message1.jpg' %}" alt="Image 1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="{% static 'img/message2.jpg' %}" alt="Image 2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="{% static 'img/message3.jpg' %}" alt="Image 3">
+                  </div>
+                  <!-- Добавьте дополнительные элементы по аналогии -->
                 </div>
 
-                <span class="left"><</span>
-                <span class="right">></span>
 
               </div>
 
 
             </div>
 
+
+            <div class="carousel-arrows-clone">
+              
+              <a class="carousel-control-prev-clone" role="button-clone">
+                <span><</span>
+              </a>
+              <a class="carousel-control-next-clone" role="button-clone">
+                <span>></span>
+              </a>
+
+            </div>
+
+
           </div>
+
+          
 
           <div class="feedback__container_leftext">
             <h1>+ 20 000 пациентов</h1>
 
-            <p>Мы обслужили более 20 тыс пациентов. 
-              Среди наших пациентов были и много знаменитостей, нас выбирают как лучшие специалисты!</p>
+            <h3>Мы обслужили более 20 тыс пациентов. 
+              Среди наших <br>пациентов были и много знаменитостей, нас выбирают как лучшие специалисты!</h3>
 
             
             <span>Убедитесь сами, нажмите на кнопку и получите бесплатную консультацию</span>
@@ -703,6 +728,9 @@
 
       </div>
   </div>
+
+
+
 </body>
 
 </html>
