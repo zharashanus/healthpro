@@ -1,0 +1,41 @@
+.certificates{
+    width: 100%;
+    position: absolute;
+    display: flex;  
+    left: 0; /* Обеспечиваем, что блок начинается с левого края */
+    right: 0; /* Обеспечиваем, что блок растягивается до правого края */
+}
+.certificates-container__text{
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 1.23;
+    padding-top: 8px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+.certificates-container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 15px 30px;
+    
+}
+
+.certificates-container__blocks{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 колонок */
+    grid-template-rows: repeat(2, auto); /* 2 ряда */
+    grid-gap: 20px; /* Расстояние между элементами */
+    justify-content: center; /* Центрирование колонок */
+}
+
+.certificates-container__blocks-item{
+    width: 100%; /* Ширина каждого элемента */
+    height: auto; /* Высота каждого элемента */
+}
+
+.certificates-container__blocks-item img{
+    width: 100%; /* Ширина изображения подгоняется под размер блока */
+    height: auto; /* Высота изображения сохраняет пропорции */
+}

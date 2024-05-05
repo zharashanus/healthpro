@@ -151,9 +151,9 @@ textarea:not([rows]) {
     margin-top: 30px;
 }
 
-.artboard-leftside__content_header {
-    color: var(--violet);
-}
+
+
+
 
 .artboard-leftside__content_subheader {
     width: 700px;
@@ -486,6 +486,9 @@ textarea:not([rows]) {
 
 
 
+
+
+
 @media (max-width: 768px) {
     .container {
         max-width: 700px;
@@ -599,6 +602,8 @@ textarea:not([rows]) {
       .artboard-leftside__content_header {
         text-wrap: nowrap;
     }
+
+    
     .artboard-leftside__content_subheader{
         width: 300px;
     }
@@ -610,3 +615,4 @@ textarea:not([rows]) {
         margin-left: -0px;
     }
 }
+
