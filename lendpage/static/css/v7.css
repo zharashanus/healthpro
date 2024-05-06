@@ -1,0 +1,18 @@
+.artboard-leftside__content-service-features::after {
+    content: '';
+    position: absolute;
+    left: -15px;
+    top: 13px;
+    width: 20px; 
+    height: 3px; 
+    background-color: var(--violet); 
+}
+.feedback__container_leftext span{
+    color: violet;
+}
+.carousel-control-prev-clone, .carousel-control-next-clone{
+    top:42%;
+}
+
+
+

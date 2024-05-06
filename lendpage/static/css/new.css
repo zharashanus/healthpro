@@ -173,15 +173,6 @@ textarea:not([rows]) {
     width: 500px;
 }
 
-.artboard-leftside__content-service-features::after {
-    content: '';
-    position: absolute;
-    left: -15px;
-    top: 12px;
-    width: 20px; 
-    height: 3px; 
-    background-color: #8d6eff; 
-}
 
 
 
@@ -200,7 +191,8 @@ textarea:not([rows]) {
     transition: all 0.3s;
 }
 .artboard-leftside__actions-button p {
-    margin-top: 7px;
+    margin-top: -45px;
+    margin-left: 40px;
 }
 .artboard-leftside__actions-button:hover {
     opacity: 0.8;
@@ -208,8 +200,6 @@ textarea:not([rows]) {
 
 
 .artboard-leftside__actions-button-icon {
-    margin-left:20px;
-    margin-top: 3px;
     width: 30px;
     color: white;
     fill: white;
@@ -378,6 +368,7 @@ textarea:not([rows]) {
 .doctorslist__choosedoctor p {
     text-align: left;
     width: 150%;
+    height:100px;
     font-size: 28px;
     font-family: 'TildaSans',Arial,sans-serif;
     font-weight: 400;

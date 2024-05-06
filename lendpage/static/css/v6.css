@@ -129,3 +129,10 @@
 .footer__container_blocks-fourth li{
     margin-top: 5px;
 }
+
+
+
+
+.artboard-leftside__content-service-features::after {
+    background-color: var(--violet); 
+}
