@@ -82,15 +82,6 @@
 }
 
 
-.carousel-control-prev {
-  left: 10px; /* Расположение слева */
-  font-size: 60px; /* Увеличенный размер для видимости */
-}
-
-.carousel-control-next {
-  right: 10px; /* Расположение справа */
-  font-size: 60px; /* Увеличенный размер для видимости */
-}
 
 .feedback__container_circle{
   width: 600px;
@@ -104,7 +95,6 @@
 
 .carousel-control-prev-clone, .carousel-control-next-clone {
   position: absolute;
-  top: 60%;
   transform: translateY(-50%); /* Центрируем стрелки по вертикали */
   cursor: pointer;
   color: white; /* Убедитесь, что цвет стрелок контрастирует с фоном */
@@ -113,6 +103,7 @@
 
 .carousel-control-prev-clone {
   left: 380px; /* Расположение слева */
+
   font-size: 80px; /* Увеличенный размер для видимости */
 } 
 
@@ -164,7 +155,7 @@
   display: table-cell;
   vertical-align: middle;
   -webkit-text-size-adjust: 100%;
-  color: #8d6eff;
+  color: var(--violet);
   font-size: 18px;
   font-family: 'TildaSans',Arial,sans-serif;
   font-weight: 600;

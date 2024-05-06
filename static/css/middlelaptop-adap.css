@@ -1,0 +1,280 @@
+
+
+@media (max-width: 1280px) {
+
+    *{
+        max-width: 1280px;
+    }
+    .container {
+        max-width: 1280px;
+        padding: 30px 40px;
+    }
+
+
+    .artboard-leftside__actions--choosed-us{
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+    .artboard-leftside__actions--choosed-us p {
+        
+        margin-left: 100px;
+    }   
+    .artboard-rightside{
+        margin-top: 760px;
+        margin-left: -500px;
+}
+    .image-container {
+
+        position: absolute;
+        width: 130%; /* Примерный размер, может быть изменен */
+        max-width: 100%;
+        top: 500px;
+
+      }
+      
+      .image-container:nth-child(1) {
+        margin-top: -640px;
+        margin-left: 1200px;
+        display: none;
+      }
+      
+      .image-container:nth-child(2) {
+        margin-top: -1300px;
+        margin-left: 2300px;
+      }
+      
+      .image-container:nth-child(3) {
+        margin-top: -1200px;
+        margin-left: 1000px;
+      }
+      
+      .image-container:nth-child(4) {
+        margin-top: -2300px;
+        margin-left: 2300px;
+      }
+
+
+      .artboard-leftside__header-logo img{
+        max-width:100%;
+      }
+      .artboard-leftside__header-phone-icon{
+        display: flex;
+        margin-top: 20px;
+        max-width: 300px;
+      }
+      .artboard-leftside__header-phone-call{
+        margin-top: 10px;
+        font-size: 30px;
+      }
+      .artboard-leftside__header-phone-call p{
+
+        font-size: 20px;
+      }
+      .artboard-leftside__header-phone-call span{
+        text-wrap: nowrap;
+        margin-left: 0px;
+        font-size: 15px;
+      }
+      .artboard-leftside__header-phone{
+        margin-left: 100px;
+      }
+      
+    
+      .artboard-leftside__content_header {
+        font-size: 20px;
+        text-wrap: nowrap;
+    }
+
+    
+    .artboard-leftside__content_subheader{
+        width: 500px;
+    }
+    .artboard-leftside__content-service-features{
+        width:556px;
+    }
+    .artboard-leftside__actions_discount{
+        margin-top: -100px;
+        margin-left: 330px;
+    }
+    .artboard-leftside__actions{
+        margin-top: 20px;
+    }
+
+    
+    .doctorslist__choosedoctor p{
+        position: absolute;
+
+        left: 100px;
+        width: 500px;
+    }
+    .doctorslist__blocks{
+        margin-top: 250px;
+        margin-left: -300px;
+        justify-content: space-evenly;
+        gap: 30px;
+
+    }
+    .doctorslist__blocks-lor{
+        margin-left: 0px;
+    }
+
+    .doctorslist__blocks div:last-child {
+        margin-left: -11px;
+        max-width: 100%;
+    }
+    .reasons{
+        margin-top: 1400px;
+    }
+
+    .certificates-container__blocks {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for mobile */
+        grid-template-rows: repeat(5, auto); /* Adjust number of rows based on content */
+    }
+    
+    .employees{
+        margin-top: 4100px;
+    }
+
+
+
+    .employees__container_blocks-item img{
+        width:50%;
+    }
+
+
+    .employees__container_blocks {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* Создает две колонки */
+        grid-gap: 20px; /* Расстояние между карточками */
+        margin-top: 30px;
+    }
+    
+    .employees__container_blocks-item {
+        animation-duration: unset !important;
+    }
+
+    .employees__container_exp{
+        margin-left: 200px;
+        text-align: center;
+        width: 467px;
+    }
+    #employees__container_button{
+        margin-left: 60px;
+        margin-top: 20px;
+    }
+
+    .feedback{
+        margin-top: 6000px;
+        
+    }
+    .feedback__container_maintext{
+        margin-left: 130px;
+    }
+    .feedback__container_circle{
+        width: 500px;
+        height: 500px;
+        margin-top: 100px;
+        margin-left: 185px;
+    }
+    .phone-frame{
+        width: 260px;
+        height: 538px;
+        margin-top: -510px;
+        margin-left: 300px;
+    }
+    .carousel-control-prev-clone{
+        left: 360px;
+        font-size: 60px;
+    }
+    .carousel-control-next-clone{
+        right: 445px;
+        font-size: 60px;
+    }
+    .carousel-control-prev-clone, .carousel-control-next-clone{
+        top:37%;
+    }
+
+    .feedback__container_leftext{
+        margin-left: -490px;
+        margin-top: 600px;
+        width: 100%;
+    }
+    .feedback__container_leftext h3{
+        text-align: center;
+        margin-top: -350px;
+    }
+    .feedback__container_leftext span{
+        text-align: center;
+        margin-top: -150px;
+        margin-left: 720px;
+        max-width: 100%;
+    }
+    #button-ubed{
+        margin-top: -50px;
+        margin-left: 750px;
+        max-width: 100%;
+    }
+
+    .feedback__container_choose-us{
+        margin-left: 220px;
+        max-width: 100%;
+        position: absolute;
+    }
+
+    .feedback__container_choose-us h2{
+        margin-top: 10px;
+        margin-left: 70px;
+    }
+
+    .feedback__container_choose-us-block{
+        position: absolute;
+        max-width: 70%;
+        margin-top: 300px;
+        margin-left: 60px;
+        padding: 0 10px;
+    }
+
+    .feedback__container_choose-us-block p{
+        font-size: 15px;
+    }
+
+    .footer {
+        margin-top: 8000px;
+        max-width: 100%;
+    }
+    
+    .footer__container_blocks {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); /* Создает четыре колонки */
+        gap: 0px; /* Расстояние между блоками */
+        align-items: start; /* Выравнивание элементов по верхнему краю */
+        max-width: 100%;
+        
+    }
+    
+    .footer__container_blocks ul {
+        width: 300px; /* Ширина каждого списка в блоках */
+    }
+    
+    .footer__container_blocks-second,
+    .footer__container_blocks-third,
+    .footer__container_blocks-fourth {
+        margin-left: 100; /* Убираем внешний отступ слева */
+        margin-top: 0; /* Убираем внешний отступ сверху */
+        max-width: 100%; /* Максимальная ширина каждого блока */
+    }
+
+    .footer__container_blocks-second{
+        margin-left: 350px ;
+    }
+
+    .footer__container_blocks-third{
+        margin-left: -85px ;
+    }
+
+    .footer__container_blocks-fourth{
+        margin-left: 0px ;
+    }
+
+}
+

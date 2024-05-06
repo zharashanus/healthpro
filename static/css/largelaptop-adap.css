@@ -1,0 +1,19 @@
+
+
+@media (max-width: 1600px) {
+
+    *{
+        max-width: 1600px;
+    }
+    .doctorslist__container{
+        margin-left: 185px;
+    }
+
+    .carousel-control-prev-clone{
+        left: 220px;
+    }
+    .carousel-control-next-clone{
+        right: 850px;
+    }
+}
+

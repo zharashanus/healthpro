@@ -1,0 +1,22 @@
+.artboard-leftside__actions-button-icon{
+    margin-left: -5px;
+}
+
+.artboard-leftside__actions-button p {
+    margin-top: -3px;
+    margin-left: 5px;
+}
+.button-link {
+    text-decoration: none; /* Убирает подчеркивание */
+    color: inherit; /* Наследует цвет текста от родителя */
+    display: flex; /* Использует flexbox для выравнивания содержимого */
+    align-items: center; /* Центрирует содержимое по вертикали */
+    justify-content: center; /* Центрирует содержимое по горизонтали */
+    width: 100%; /* Занимает всю ширину кнопки */
+    height: 100%; /* Занимает всю высоту кнопки */
+    margin:0;
+    padding:0;
+}
+.artboard-leftside__actions-button{
+    cursor: pointer;
+}

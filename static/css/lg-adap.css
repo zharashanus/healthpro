@@ -1,0 +1,246 @@
+@media (max-width: 320px){
+
+    *{
+        
+        margin: 0%;
+        padding: 0%;
+    }
+    .container {
+        max-width: 320px;
+        margin: 0 auto;
+        padding: 15px 30px;
+    }
+    .artboard-leftside__content-service-features::after{
+        visibility: hidden;
+    }
+    .artboard-leftside__header-logo img{
+        width: 80px;
+    }
+
+
+    .artboard-leftside__header-phone-icon{
+        width: 20px;
+        margin-left: -5px;
+        margin-top: 16px;
+    }
+
+
+    .artboard-leftside__header-phone-call p{
+        font-size: 15px;
+    }
+    .artboard-leftside__header-phone-call span{
+        font-size: 10px;
+    }
+
+    .artboard-leftside__content_header{
+        font-size: 15px;
+    }
+    .artboard-leftside__content_subheader{
+        font-size: 30px;
+    }
+
+    .artboard-leftside__content-service-features{
+        font-size: 15px;
+        list-style: none;
+        max-width: 200px;
+    }
+
+    .artboard-leftside__actions-button{
+        margin-top: 30px;;
+        max-width: 250px;
+    }
+
+    .artboard-leftside__actions_discount{
+        max-width: 320px;
+        width:250px;
+    }
+
+    .artboard-leftside__actions_discount-arrow {
+        animation-name: move-from-down;
+        animation-duration: 600ms;
+        animation-timing-function: ease;
+        animation-fill-mode: forwards;
+        animation-iteration-count: infinite; /* Делаем анимацию бесконечной */
+        transform: rotate(90deg) !important;
+    }
+    
+    @keyframes move-from-down {
+        0% {
+            transform: translateY(100%) rotate(90deg); /* Добавляем поворот */
+            opacity: 0;
+        }
+        100% {
+            transform: translateY(0%) rotate(90deg); /* Добавляем поворот */
+            opacity: 1;
+        }
+    }
+    
+    .artboard-leftside__actions--choosed-us{
+        max-width: 320px;
+        margin-left: 30px;
+    }
+
+    .patient{
+        max-width: 320px;
+        top:70px;
+        left: -30px;
+
+    }
+
+    .artboard-rightside{
+        max-height: 3000px;
+        margin-top:800px;
+        margin-left: -600px;
+
+    }
+    .image-container {
+
+        position: absolute;
+        width: 250%; /* Примерный размер, может быть изменен */
+
+      }
+      
+      .image-container:nth-child(1) {
+        margin-top: -1000px;
+        margin-left: 1350px;
+      }
+      
+      .image-container:nth-child(2) {
+        margin-top: 00px;
+        margin-left: 1350px;
+      }
+      
+      .image-container:nth-child(3),
+    .image-container:nth-child(4) {
+        display: none;
+    }
+
+    .doctorslist{
+        position: relative;
+    }
+
+    
+
+
+    .reasons__containers-text{
+        margin-top: -830px;
+        margin-left: -50px;
+    }
+    @media (max-width: 320px) {
+
+        .doctorslist{
+            background-color: transparent;
+            position: relative; /* Ensure positioning context is set */
+        }
+        .doctorslist__blocks {
+            background-color: white;
+            margin-top: 450px;
+            left: 0px; /* Ensure it aligns to the left */
+            margin-left: -550px; /* Explicitly set margin-left to zero */
+            width: 300px;
+        }
+
+        .doctorslist__blocks div,
+        .doctorslist__blocks p,
+        .doctorslist__blocks button,
+        .doctorslist__blocks h3 {
+            width: 100%; /* Каждый дочерний элемент занимает всю ширину блока */
+            font-size: 12px; /* Уменьшаем размер шрифта */
+        }
+
+        .doctorslist__blocks h3{
+            font-size: 25px;
+            margin-left: 200px;
+        }
+        .doctorslist__blocks button{
+            font-size: 20px;
+            width: 250px;
+        }
+        .doctorslist__choosedoctor p {
+            margin-top: 190px;
+            margin-left: -310px; /* Убираем отрицательный отступ слева */
+            width: 200px; /* Задаем ширину на всю доступную ширину экрана */
+        }
+
+        .doctorslist__block icon-container{
+            margin-right: 50px;
+
+        }
+    }
+
+    .reasons__containers-blocks{
+        margin-left: -50px;
+    }
+    #reasons-button{
+        margin-left: -30px;
+    }
+
+    .certificates-container__text{
+        font-size: 30px;
+        margin-top: -40px;
+    }
+
+    .certificates-container__blocks {
+        display: flex;
+        flex-direction: row; /* Изменено с column на row */
+        flex-wrap: wrap; /* Добавлено свойство для переноса элементов */
+    }
+    
+    .certificates-container__blocks_item {
+        width: 50%; /* Устанавливаем ширину каждого элемента, чтобы два элемента помещались в одном ряду */
+    }
+
+    .employees{
+        margin-top: 1900px;
+    }
+
+    .employees__container, .employees__container_blocks, .employees__container_exp, #employees__container_button {
+        display: block; /* Показываем элементы, если они были скрыты */
+        width: 100%; /* Задаем ширину на всю доступную ширину экрана */
+        padding: 10px; /* Уменьшаем отступы */
+        margin: 0 auto; /* Центрируем элементы */
+        font-size: 14px; /* Уменьшаем размер шрифта */
+    }
+
+    .employees__container_blocks-item {
+        width: 100%; /* Задаем ширину блоков на всю доступную ширину */
+        margin: 5px 0; /* Уменьшаем отступы между блоками */
+        padding: 10px; /* Уменьшаем внутренние отступы блоков */
+    }
+
+    .employees__container_exp h1, .employees__container_exp span, .employees__container_exp h3 {
+        font-size: 16px; /* Уменьшаем размер шрифта для заголовков и текста */
+    }
+
+    .employees__container_blocks-item img {
+        width: 50%; /* Smaller size for icons */
+
+    }
+
+    .employees__container_blocks-item.is-visible.is-visibility {
+        animation: none !important;
+        visibility: hidden !important; /* Прячем элементы */
+    }
+
+
+    /* Adjust text sizes proportionally */
+    .employees__container_blocks-item h4, .employees__container_blocks-item h6, .employees__container_blocks-item h7 {
+        font-size: 14px; /* Smaller font size for text */
+    }
+
+    /* Remove visibility */
+    .employees__container_blocks-item.is-visible.is-visibility {
+        animation: none;
+            }
+
+
+    .feedback__container{
+        margin-top: 3000px;
+    }
+
+    .feedback__container_circle{
+        
+    }
+}
+
+
