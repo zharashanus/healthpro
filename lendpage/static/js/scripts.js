@@ -10,9 +10,11 @@ document.addEventListener("DOMContentLoaded", function() {
     }, { threshold: 0.1 }); // threshold - процент видимости элемента для срабатывания
 
     // Добавляем наблюдение за всеми элементами, которые должны анимироваться
-    document.querySelectorAll('.artboard-leftside__header-logo, .artboard-leftside__content_header, .artboard-leftside__actions_discount, .artboard-leftside__header-phone, .artboard-leftside__content_subheader, .artboard-leftside__content-service-features, .artboard-leftside__actions-button, .reasons__containers-blocks__item img, .reasons__container-blocks__actions button, .reasons__containers-blocks__item-text, .employees__container_blocks-item').forEach(el => {
-        observer.observe(el);
-    });
+    if (window.matchMedia('(min-width: 1280px)').matches) {
+        document.querySelectorAll('.artboard-leftside__header-logo, .artboard-leftside__content_header, .artboard-leftside__actions_discount, .artboard-leftside__header-phone, .artboard-leftside__content_subheader, .artboard-leftside__content-service-features, .artboard-leftside__actions-button, .reasons__containers-blocks__item img, .reasons__container-blocks__actions button, .reasons__containers-blocks__item-text, .employees__container_blocks-item').forEach(el => {
+            observer.observe(el);
+        });
+    }
 });
 
 document.addEventListener('DOMContentLoaded', function() {
