@@ -1,0 +1,300 @@
+
+
+@media (max-width: 480px) {
+
+    *{
+        max-width: 480px;
+    }
+    .container {
+        max-width: 480px;
+        padding: 30px 40px;
+    }
+    .artboard{
+        max-width: 100%;
+    }
+    .artboard-leftside__actions--choosed-us{
+        margin-top: 50px;
+    }
+    .artboard-leftside__actions--choosed-us p {
+        
+        margin-left: 320px;
+    }
+    .artboard-rightside{
+        margin-top:800px;
+        margin-right: -30px;
+
+    }
+    .image-container {
+
+        position: absolute;
+        width: 100%; /* Примерный размер, может быть изменен */
+
+      }
+      
+      .image-container:nth-child(1) {
+        margin-top: -525px;
+        margin-left: 1110px;
+        width: 100%;
+    }
+      
+      .image-container:nth-child(2) {
+        margin-top: -685px;
+        margin-left: 1500px;
+        width: 100%;
+    }
+      
+      .image-container:nth-child(3) {
+        margin-top: -1200px;
+        margin-left: 1100px;
+        width: 100%;
+    }
+    .image-container:nth-child(4) {
+        margin-top: -1367px;
+        margin-left: 1488px;
+        width: 100%;
+    }
+
+      .artboard-leftside__header-logo img{
+        max-width:465px;
+      }
+      .artboard-leftside__header-phone-icon{
+        display: flex;
+        margin-top: 20px;
+        max-width: 300px;
+      }
+      .artboard-leftside__header-phone-call{
+        margin-top: 10px;
+        font-size: 50px;
+      }
+      .artboard-leftside__header-phone-call p{
+
+        font-size: 20px;
+      }
+      .artboard-leftside__header-phone-call span{
+        text-wrap: nowrap;
+        margin-left: 0px;
+        font-size: 15px;
+      }
+      
+    
+      .artboard-leftside__content_header {
+        text-wrap: nowrap;
+    }
+    .artboard-leftside__actions-button p{
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    
+    .artboard-leftside__content_subheader{
+        max-width: 480px;
+    }
+    .artboard-leftside__content-service-features{
+        width:450px;
+    }
+    .artboard-leftside{
+        margin-left: 50px;
+    }
+
+    .artboard-rightside{
+        margin-left: -540px;
+        margin-top: 825px;
+        
+    }
+
+    .artboard-leftside__actions_discount{
+        /* width:319px; */
+        margin-top: 0px;
+        margin-left: -20px;
+    }
+
+    .artboard-leftside__actions_discount-arrow {
+        animation-name: move-from-down;
+        animation-duration: 600ms;
+        animation-timing-function: ease;
+        animation-fill-mode: forwards;
+        animation-iteration-count: infinite; /* Делаем анимацию бесконечной */
+        transform: rotate(90deg) !important;
+    }
+    
+    @keyframes move-from-down {
+        0% {
+            transform: translateY(100%) rotate(90deg); /* Добавляем поворот */
+            opacity: 0;
+        }
+        100% {
+            transform: translateY(0%) rotate(90deg); /* Добавляем поворот */
+            opacity: 1;
+        }
+    }
+
+    .doctorslist{
+        margin-top: -190px;
+    }
+    .doctorslist__container{
+        margin-left: 200px;
+        margin-top: 300px;
+        width:100%;
+    }
+
+
+    .doctorslist__choosedoctor p{
+        position: absolute;
+        margin-top: 60px;
+        right: 100px;
+        width:300px;
+        width: unset;
+        margin-top: unset;
+    }
+    .doctorslist__blocks{
+        margin-left: -415px;
+    }
+    .doctorslist__blocks-lor{
+        margin-left: unset;
+    }
+
+    .doctorslist__blocks div:last-child{
+        margin-left: unset;
+    }
+    .reasons{
+        margin-top: 2600px;
+    }
+
+    .certificates-container__blocks {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for mobile */
+        grid-template-rows: repeat(5, auto); /* Adjust number of rows based on content */
+    }
+    
+    .employees{
+        margin-top: 1600px;
+    }
+
+    .employees__container_blocks-item{
+        animation-duration:unset !important;
+    }
+
+    .employees__container_blocks-item img{
+        width:50%;
+    }
+    .employees__container_exp{
+        margin-left:0px;
+        width:380px;
+    }
+    #employees__container_button{
+        margin-left: 0px;
+        margin-top: 70px;
+    }
+
+    .feedback{
+        margin-top: 6100px;
+        
+    }
+    .feedback__container_maintext{
+        margin-left: 10px;
+    }
+    .feedback__container_circle{
+        width:400px;
+        height:400px;
+        margin-top: 100px;
+        margin-left: -30px;
+    }
+    .phone-frame{
+        width:260px;
+        height:538px;
+        margin-top: -465px;
+        margin-left: 40px;
+    }
+    .carousel-control-prev-clone{
+        left:55px;
+        font-size: 60px;
+    }
+    .carousel-control-next-clone{
+        right:40px;
+        font-size: 60px;
+    }
+    .carousel-control-prev-clone, .carousel-control-next-clone{
+        top:37%;
+    }
+
+    .feedback__container_leftext{
+        margin-left: -700px;
+        margin-top: 600px;
+        width: 100%;
+    }
+    .feedback__container_leftext h3{
+        text-align: center;
+        margin-top: -350px;
+        width: 95%;
+    }
+    .feedback__container_leftext span{
+        text-align: center;
+        margin-top: -200px;
+        width: 89%;
+    }
+    #button-ubed{
+        margin-top: -100px;
+        margin-left: 710px;
+        max-width: 100%;
+    }
+
+    .feedback__container_choose-us{
+        margin-left:-50px;
+        max-width: 100%;
+        margin-top: 50px;
+        position: absolute;
+    }
+
+    .feedback__container_choose-us h2{
+        margin-top: 10px;
+        margin-left: 70px;
+    }
+
+    .feedback__container_choose-us-block{
+        position: absolute;
+        max-width: 100%;
+        margin-top: 300px;
+        margin-left: -50px;
+        padding: 0 10px;
+    }
+
+    .feedback__container_choose-us-block p{
+        font-size: 15px;
+    }
+
+    .footer{
+        margin-top: 8000px;
+        max-width: 100%;
+    }
+
+    .footer__container_blocks{
+        flex-direction: column;
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        align-items: flex-start;
+
+        
+
+    }
+    .footer__container_blocks ul{
+        width:100px;
+    }
+
+    .footer__container_blocks-second{
+        margin-left: 355px;
+        width: 100%;
+    }
+    .footer__container_blocks-third{
+        margin-left:130px;
+        margin-top: 50px;
+    }
+    .footer__container_blocks-fourth{
+        margin-left:355px;
+        margin-top: -160px;
+        width:100%;
+
+    }
+
+
+}
+

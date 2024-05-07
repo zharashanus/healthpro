@@ -185,7 +185,6 @@ textarea:not([rows]) {
     cursor: pointer;
     width:319px;
     height:99px;
-
     display: flex;
     gap: 10px;
     transition: all 0.3s;
@@ -473,10 +472,6 @@ textarea:not([rows]) {
     margin-left: 20px;
     flex: 1 1 0; /* Устанавливает flex-grow на 2, flex-shrink на 0 и flex-basis на 0 */
 }
-
-
-
-
 
 
 
